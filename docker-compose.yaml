@@ -1,0 +1,9 @@
+version: '3.6'
+
+services:
+  php:
+    image: phpstorm-php
+    volumes:
+      - ./:/app
+    working_dir: /app
+    network_mode: bridge
